@@ -13,7 +13,9 @@ const metrics = {
 
 const Text = ({ children, className }) => (
 	<div className={className}>
-		<h2 style={{ margin: 0 }}>{children}</h2>
+		<h2 style={{ margin: 0, fontFamily: 'GH Guardian Headline' }}>
+			{children}
+		</h2>
 	</div>
 );
 
